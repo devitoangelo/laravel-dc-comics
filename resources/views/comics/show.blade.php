@@ -17,8 +17,6 @@
                     <strong>Price</strong> {{$comic->price}} <br>
                     <strong>series</strong> {{$comic->series}} <br>
                     <strong>type</strong> {{$comic->type}} <br>
-
-
                 </div>
 
             </div>

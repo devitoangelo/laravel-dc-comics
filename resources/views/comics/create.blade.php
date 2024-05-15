@@ -35,10 +35,17 @@
                 <small id="priceHelper" class="form-text text-muted">Type a price for the comic</small>
             </div>
             <div class="mb-3">
-                <label for="image" class="form-label">Image</label>
-                <input type="text" class="form-control" name="image" id="image" aria-describedby="imageHelper"
+                <label for="thumb" class="form-label">thumb</label>
+                <input type="text" class="form-control" name="thumb" id="thumb" aria-describedby="thumbHelper"
                     placeholder="http//" />
-                <small id="priceHelper" class="form-text text-muted">Type an image for the comic</small>
+                <small id="thumbHelper" class="form-text text-muted">Type an image for the comic</small>
+            </div>
+
+            <div class="mb-3">
+                <label for="sale_date" class="form-label">Sale_date</label>
+                <input type="text" class="form-control" name="sale_date" id="sale_date" aria-describedby="sale_dateHelper"
+                    placeholder=sale_date />
+                <small id="sale_dateHelper" class="form-text text-muted">Type an sale_date for the comic</small>
             </div>
 
             <div class="mb-3">

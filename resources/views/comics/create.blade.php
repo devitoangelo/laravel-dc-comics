@@ -4,6 +4,7 @@
 @section('content')
     <div class="container">
         <h1>Add new Comic</h1>
+        @include('partials.validation-errors')
 
 
         <form action="{{ route('comics.store') }}" method="post">

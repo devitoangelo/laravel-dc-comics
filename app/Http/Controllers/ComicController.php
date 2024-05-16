@@ -42,6 +42,8 @@ class ComicController extends Controller
         $comic->Description = $data['Description'];
         $comic->save();
 
+        
+
        return to_route('comics.index');
 
 
@@ -79,6 +81,7 @@ class ComicController extends Controller
      */
     public function destroy(Comic $comic)
     {
-        //
+        $comic->delete();
+        return to_route('comics.index');
     }
 }

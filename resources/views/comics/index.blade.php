@@ -38,7 +38,8 @@
                             <td>{{$comic->type}}</td>
                             <td>
                                 <a href="{{route('comics.show', $comic)}}"><i class="fa-solid fa-eye fa-sm fa-fw"></i></a>
-                                /Edit/Delete</td>
+                                <a href="{{route('comics.edit', $comic)}}"><i class="fa-solid fa-pencil fa-sm fa-fw"></i></a>
+                                Delete</td>
 
                         </tr>
                     @empty

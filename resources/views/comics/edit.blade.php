@@ -6,6 +6,7 @@
         <h1>Add new Comic</h1>
 
 
+
         <form action="{{ route('comics.update', $comic) }}" method="post">
             @csrf
             @method('PUT')
